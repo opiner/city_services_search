@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'open';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('OpenSans-Semibold-webfont.eot');
+    src: url('OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Semibold-webfont.woff') format('woff'),
+         url('OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,h2,p,h3,ul,li {margin:0}
+body{width:auto; padding:0; margin:0; background:#f2f2f2; font-family:'open'; width:100%}
+
+
+#banner{
+	height:45px; background:#fff; box-shadow:0px 0px 3px #bbb; padding-top:20px;
+}
+#searchbarzone{
+	margin-left:10%; margin-top:50px
+}
+#searchbar{
+	width:50%; height:38px; border:1px solid #ccc; padding-left:1%;	border-radius:4px;
+}
+#banner li {float:right; margin-right:2%; list-style-type:none; margin-top:0}
+#banner li  a {text-decoration:none; color:orange}
+
+.sss li a {text-decoration:none; color:orange;}
+#options{
+	width:50%;
+	background:#fff;
+	border-radius:4px;
+	margin-top:3px;
+	padding-top:2px;
+	padding-bottom:10px;
+	border:1px solid #ccc; 
+}
+
+#resultzone{
+	margin-left:10%; margin-top:20px
+}
+
+li{list-style:none}
+
+.repeat{
+	width:47%; min-height:120px; background:#fff; border:1px solid #ccc; margin-top:10px; padding-top:10px; padding-left:2%; padding-right:1%; margin-bottom:10px; border-radius:4px;
+}
+.aut{width:150px; height:40px; background:blue; color:#fff; font-family:'bold'; border:1px solid green; margin-bottom:5px; margin-top:10px}
+
+#flexcon{
+	
+
+	width:70%;	
+	margin-top:30px;
+	margin-left:15%;
+}
+.card1{
+	 border:1px solid #ccc; padding:1%; width:60%; float:left; background:#fff; min-height:200px;
+	 }
+	 
+	 .card2{
+	 border:1px solid #ccc; padding:1%; flex:1; flex-wrap:wrap; width:34%; float:right; background:#fff;
+	 }
+	
